@@ -36,7 +36,7 @@ public class Flipkart extends Baseclass{
 	@Test
 	private void login() {
 		POM p =new POM();
-		System.out.println("Git testing purpose");
+		
 p.getSearch().sendKeys("Iphone"+Keys.ENTER);
 List<WebElement> elements = Driver.findElements(By.xpath("//div[@class='KzDlHZ']"));
 List<WebElement> price = Driver.findElements(By.xpath("//div[@class='Nx9bqj _4b5DiR']"));
